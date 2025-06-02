@@ -20,6 +20,7 @@
     src: url(../fonts/Lato-Light.ttf);
 }
 
+/* fonts og størrelse */
 
 h1 {
     font-family: "h1";
@@ -39,6 +40,13 @@ h2 {
     font-family: "h2";
     font-size: 40px;
 }
+.hej {
+    font-size: 32px;
+}
+.omm {
+    font-size: 48px;
+}
+
 
 h3 {
     font-family: "andet";
@@ -62,6 +70,41 @@ p {
     color: black;
 }
 
+
+/* positioner */
+
+.centre {
+    text-align: center;
+}
+
+.løsning {
+    display: flex;
+    justify-content: end;
+    font-family: "tekst";
+    color: black;
+}
+
+.AAA {
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    gap: 0rem;
+}
+.A {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-right: 0;
+}
+.kua {
+    grid-column: span 6;
+    grid-row: 1/2;
+    margin-top: 59px;
+}
+
+
+
+
+
+/* desktop-format */
 
 @media (width <= 600px) {
     
