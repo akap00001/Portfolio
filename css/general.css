@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "h1";
+    src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "tal";
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "h2";
+    src: url(../fonts/Gloock/Gloock-Regular.ttf);
+}
+
+@font-face {
+    font-family: "andet";
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "tekst";
+    src: url(../fonts/Lato-Light.ttf);
+}
+
+
+h1 {
+    font-family: "h1";
+}
+h2 {
+    font-family: "h2";
+    font-size: 40px;
+}
+.port-mobil {
+    font-family: "h1";
+    font-size: 48px;
+} .port-desk {
+    display: none;
+}
+h3 {
+    font-family: "andet";
+    font-size: 36px;
+}
+h4 {
+    font-family: "andet";
+    font-size: 24px;
+}
+h5 {
+    font-family: "andet";
+    font-size: 14px;
+}
+p {
+    font-family: "tekst";
+    font-size: 15px;
+} .index-tekst {
+    font-family: "tekst";
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+
+@media (width <= 600px) {
+    
+    .port-desk {
+        font-family: "lora";
+        font-weight: bold;
+        font-size: 128px;
+    }
+}
