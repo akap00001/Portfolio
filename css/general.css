@@ -28,9 +28,7 @@ h1 {
 .port-mobil {
     font-family: "h1";
     font-size: 48px;
-} .port-desk {
-    display: none;
-}
+} 
 .tal {
     font-family: "tal";
     font-size: 48px;
@@ -50,7 +48,7 @@ h2 {
 
 h3 {
     font-family: "andet";
-    font-size: 36px;
+    font-size: 32px;
 }
 h4 {
     font-family: "andet";
@@ -58,7 +56,8 @@ h4 {
 }
 h5 {
     font-family: "andet";
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 500;
 }
 p {
     font-family: "tekst";
@@ -72,6 +71,13 @@ p {
 
 
 /* positioner */
+
+.port-mobil {
+    text-align: end;
+    padding-bottom: 20px;
+}.port-desk {
+    display: none;
+}
 
 .centre {
     text-align: center;
@@ -100,9 +106,88 @@ p {
     margin-top: 59px;
 }
 
+.tema_grid_1-1_1 {
+    display: block;
+    margin: 0 auto;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 450px;
+}
+
+.pro-h4 {
+    margin-top: -20px;
+    padding-left: 2px;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+.img-02 {
+    width: 210px;
+    height: auto;
+}
 
 
+/* basis + billeder */
 
+body {
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.aku {
+    width: 280px;
+    height: 400px;
+    object-fit: cover;
+
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.temaerne img {
+    width: 140px;
+    height: 190px;
+    object-fit: cover;
+
+    margin: 0;
+    padding-top: 8px;
+}
+
+
+.grid_1-1-1 img {
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+}
+.farve1 {
+    background-color: #051428;
+    max-width: 180px;
+
+    margin-top: 4px;
+    margin-bottom: 8px;
+} 
+.farve2 {
+    background-color: #D8CEC4;
+    color: #D8CEC4;
+    max-width: 180px;
+
+    margin-top: 4px;
+    margin-bottom: 8px;
+} 
+.farve3 {
+    background-color: #1754A7;
+    color: #1754A7;
+    max-width: 180px;
+
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
 
 /* desktop-format */
 
