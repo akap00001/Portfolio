@@ -7,8 +7,8 @@
 
 .effects img:hover {
     filter: blur(0) opacity(100%) brightness(100%);
-    box-shadow: 2px 3px rgba(0, 0, 0, 0.2);;
-    transition: all 2s;
+    box-shadow: 1px 1.5px rgba(0, 0, 0, 0.2);;
+    transition: all 1s;
 
 }
 
@@ -37,7 +37,7 @@
 }
 
 .index-tekst img {
-    filter: blur(2px) opacity(100%) brightness(80%);
+    filter: blur(1.5px) opacity(100%) brightness(80%);
 }
 
 .bleh img {
