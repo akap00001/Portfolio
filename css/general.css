@@ -20,182 +20,426 @@
     src: url(../fonts/Lato-Light.ttf);
 }
 
-/* fonts og størrelse */
+/* MOBIL */
 
-h1 {
-    font-family: "h1";
-}
-.port-mobil {
-    font-family: "h1";
-    font-size: 48px;
-} 
-.tal {
-    font-family: "tal";
-    font-size: 48px;
-    font-weight: medium;
-}
-h2 {
-    font-family: "h2";
-    font-size: 40px;
-}
-.hej {
-    font-size: 32px;
-}
-.omm {
-    font-size: 48px;
-}
+@media (max-width: 499px) {
 
-
-h3 {
-    font-family: "andet";
-    font-size: 32px;
-}
-h4 {
-    font-family: "andet";
-    font-size: 24px;
-}
-h5 {
-    font-family: "andet";
-    font-size: 13px;
-    font-weight: 500;
-}
-p {
-    font-family: "tekst";
-    font-size: 15px;
-} .index-tekst {
-    font-family: "tekst";
-    text-decoration: none;
-    font-size: 17px;
-    color: black;
-}
-
-
-/* positioner */
-
-.port-mobil {
-    text-align: end;
-    padding-bottom: 20px;
-}.port-desk {
-    display: none;
-}
-
-.centre {
-    text-align: center;
-}
-
-.løsning {
-    display: flex;
-    justify-content: end;
-    font-family: "tekst";
-    color: black;
-}
-
-.AAA {
-    display: grid;
-    grid-template-columns: repeat(18,1fr);
-    gap: 0rem;
-}
-.A {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin-right: 0;
-}
-.kua {
-    grid-column: span 6;
-    grid-row: 1/2;
-    margin-top: 59px;
-}
-
-.tema_grid_1-1_1 {
-    display: block;
-    margin: 0 auto;
-
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 450px;
-}
-
-.pro-h4 {
-    margin-top: -20px;
-    padding-left: 2px;
-}
-
-h3 {
-    padding-top: 10px;
-}
-
-.img-02 {
-    width: 210px;
-    height: auto;
-}
-
-
-/* basis + billeder */
-
-body {
-    padding: 20px;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-.aku {
-    width: 280px;
-    height: 400px;
-    object-fit: cover;
-
-    display: block;
-    margin: 0 auto;
-    padding-top: 30px;
-}
-
-.temaerne img {
-    width: 140px;
-    height: 190px;
-    object-fit: cover;
-
-    margin: 0;
-    margin-top: 8px;
-}
-
-
-.grid_1-1-1 img {
-    width: 180px;
-    height: auto;
-    object-fit: cover;
-}
-.farve1 {
-    background-color: #051428;
-    max-width: 180px;
-
-    margin-top: 4px;
-    margin-bottom: 8px;
-} 
-.farve2 {
-    background-color: #D8CEC4;
-    color: #D8CEC4;
-    max-width: 180px;
-
-    margin-top: 4px;
-    margin-bottom: 8px;
-} 
-.farve3 {
-    background-color: #1754A7;
-    color: #1754A7;
-    max-width: 180px;
-
-    margin-top: 4px;
-    margin-bottom: 8px;
-}
-
-/* desktop-format */
-
-@media (width <= 600px) {
+    /* fonts og størrelse */
     
-    .port-desk {
-        font-family: "lora";
-        font-weight: bold;
-        font-size: 128px;
+        h1 {
+            font-family: "h1";
+        }
+    
+        .port-mobil {
+            font-family: "h1";
+            font-size: 48px;
+        }
+    
+        .tal {
+            font-family: "tal";
+            font-size: 48px;
+            font-weight: medium;
+        }
+    
+        h2 {
+            font-family: "h2";
+            font-size: 40px;
+        }
+    
+        .hej {
+            font-size: 32px;
+        }
+    
+        .omm {
+            font-size: 48px;
+        }
+    
+    
+        h3 {
+            font-family: "andet";
+            font-size: 32px;
+        }
+    
+        h4 {
+            font-family: "andet";
+            font-size: 24px;
+        }
+    
+        h5 {
+            font-family: "andet";
+            font-size: 13px;
+            font-weight: 500;
+        }
+    
+        p {
+            font-family: "tekst";
+            font-size: 15px;
+        }
+    
+        .index-tekst {
+            font-family: "tekst";
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+        }
+    
+    
+        /* positioner */
+    
+        .port-mobil {
+            text-align: end;
+            padding-bottom: 20px;
+        }
+    
+        .port-desk {
+            display: none;
+        }
+    
+        .centre {
+            text-align: center;
+        }
+    
+        .løsning {
+            display: flex;
+            justify-content: end;
+            font-family: "tekst";
+            color: black;
+        }
+    
+        .AAA {
+            display: grid;
+            grid-template-columns: repeat(18, 1fr);
+            gap: 0rem;
+        }
+    
+        .A {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            margin-right: 0;
+        }
+    
+        .kua {
+            grid-column: span 6;
+            grid-row: 1/2;
+            margin-top: 59px;
+        }
+    
+        .tema_grid_1-1_1 {
+            display: block;
+            margin: 0 auto;
+    
+            padding-left: 20px;
+            padding-right: 20px;
+            max-width: 450px;
+        }
+    
+        .pro-h4 {
+            margin-top: -20px;
+            padding-left: 2px;
+        }
+    
+        h3 {
+            padding-top: 10px;
+        }
+    
+        .img-02 {
+            width: 210px;
+            height: auto;
+        }
+    
+    
+        /* basis + billeder */
+    
+        body {
+            padding: 20px;
+        }
+    
+        img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .aku {
+            width: 280px;
+            height: 400px;
+            object-fit: cover;
+    
+            display: block;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+    
+        .temaerne img {
+            width: 140px;
+            height: 190px;
+            object-fit: cover;
+    
+            margin: 0;
+            margin-top: 8px;
+        }
+    
+    
+        .grid_1-1-1 img {
+            width: 180px;
+            height: auto;
+            object-fit: cover;
+        }
+    
+        .farve1 {
+            background-color: #051428;
+            max-width: 180px;
+    
+            margin-top: 4px;
+            margin-bottom: 8px;
+        }
+    
+        .farve2 {
+            background-color: #D8CEC4;
+            color: #D8CEC4;
+            max-width: 180px;
+    
+            margin-top: 4px;
+            margin-bottom: 8px;
+        }
+    
+        .farve3 {
+            background-color: #1754A7;
+            color: #1754A7;
+            max-width: 180px;
+    
+            margin-top: 4px;
+            margin-bottom: 8px;
+        }
+}
+
+
+
+/* DESKTOP */
+
+@media (min-width: 500px) {
+    
+    main { 
+        max-width: 1200px;
+        margin: 0 auto; 
+        padding: 0;
+
     }
+
+    /* Skriftyper */
+    
+        .port-desk {
+            font-family: "h2";
+            font-weight: bold;
+            font-size: 96px;   
+        } .port-mobil { display: none;}
+        
+        h1 {
+            font-family: "h1";
+            font-size: 96px;
+        }
+    
+        .tal {
+            font-family: "tal";
+            font-size: 64px;
+            font-weight: medium;
+        }
+    
+        h2 {
+            font-family: "h2";
+            font-size: 64px;
+        }
+    
+        .hej {
+            font-size: 40px;
+
+            margin-bottom: -10px;
+        }
+    
+        .omm {
+            font-size: 80px;
+
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+    
+    
+        h3 {
+            font-family: "andet";
+            font-size: 40px;
+        }
+    
+        .pro-h4 {
+            font-family: "andet";
+            font-size: 32px;
+        }
+    
+        h5 {
+            font-family: "andet";
+            font-size: 16px;
+            font-weight: 500;
+        }
+    
+        p {
+            font-family: "tekst";
+            font-size: 18px;
+        }
+    
+        .index-tekst {
+            font-family: "tekst";
+            text-decoration: none;
+            font-size: 20px;
+            color: black;   }
+    
+    /* positioner */
+    
+        .port-desk {
+            text-align: end;
+            margin-top: 20px;
+
+            margin-right: -60px;
+            margin-bottom: -30px;
+        }
+
+        .akuas {
+            font-size: 96px;
+            margin-left: -20px;
+
+            margin-top: -30px;
+            margin-bottom: 30px;
+        }
+    
+        .centre {
+            text-align: center;
+        }
+    
+        .løsning {
+            display: flex;
+            justify-content: end;
+            font-family: "tekst";
+            color: black;
+        }
+    
+        .AAA {
+            display: grid;
+            grid-template-columns: repeat(18, 1fr);
+            gap: 0rem;
+        }
+        .A {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            margin-right: 5px;
+            margin-bottom: -10px;
+
+            font-size: 70px;
+        }
+        .kua {
+            grid-column: span 6;
+            grid-row: 1/2;
+            margin-top: 106px;
+
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .omm-text {
+            max-width: 40ch;
+        }
+    
+        .tema_grid_1-1_1 {
+            display: block;
+            margin: 0 auto;
+    
+            padding-top: 10px;
+            max-width: 1200px;
+        }
+    
+        .pro-h4 {
+            margin-top: -30px;
+            padding-left: 2px;
+        }
+    
+        h3 {
+            padding-top: 30px;
+        }
+    
+        /*
+        .img-02 {
+            width: 210px;
+            height: auto;
+        }
+    
+    
+    /* basis + billeder */
+    
+        img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .aku {
+            width: auto;
+            height: 500px;
+            object-fit: cover;
+    
+            display: block;
+            margin: 0 auto;
+            padding-top: 30px;
+        } .order {
+            margin-right: 100px;
+        }
+    
+        .temaerne img {
+            width: auto;
+            height: 380px;
+            object-fit: cover;
+    
+            margin: 0;
+            margin-top: 0px;
+        }
+    
+    
+        .grid_1-1-1 img {
+            width: auto;
+            height: 300px;
+            object-fit: cover;
+
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    
+        .farve1 {
+            background-color: #051428;
+            max-width: 226px;
+    
+            margin-top: 4px;
+            margin-bottom: 8px;
+
+        }
+    
+        .farve2 {
+            background-color: #D8CEC4;
+            color: #D8CEC4;
+            max-width: 226px;
+    
+            margin-top: 4px;
+            margin-bottom: 8px;
+
+        }
+    
+        .farve3 {
+            background-color: #1754A7;
+            color: #1754A7;
+            max-width: 226px;
+    
+            margin-top: 4px;
+            margin-bottom: 8px;
+
+        }
+
+        .col1, .col2, .col3{
+            margin-left: 50px;
+
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
 }

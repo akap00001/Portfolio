@@ -74,17 +74,12 @@ header {
 /* DESKTOP */
 
 @media (min-width: 500px) {
-    
-    body {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
 
     header {
         border-bottom: 1px solid #d9d9d9;
         margin-bottom: 50px;
-        margin-left: -160px;
-        margin-right: -160px;
+        margin-left: -25px;
+        margin-right: -25px;
            
     }
 
@@ -111,8 +106,8 @@ header {
     footer {
         border-top: 1px solid #d9d9d9;
         margin-top: 50px;
-        margin-left: -160px;
-        margin-right: -160px;
+        margin-left: -25px;
+        margin-right: -25px;
         
     }
 
