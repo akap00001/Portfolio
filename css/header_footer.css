@@ -71,6 +71,40 @@ header {
 }
 
 
+/* hover */
+
+.mail-hover {
+    position: relative;
+    display: inline-block;
+}
+
+.mail-hover img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mails {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-100%);
+    background-color: #1e1e1ecc;
+    /* mørk baggrund med gennemsigtighed */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    /* så man ikke klikker ved en fejl */
+}
+
+.mail-hover:hover .mails {
+    opacity: 1;
+}
+
+
 /* DESKTOP */
 
 @media (min-width: 500px) {
