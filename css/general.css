@@ -219,7 +219,7 @@
 @media (min-width: 500px) {
     
     main { 
-        max-width: 1200px;
+        max-width: 1000px;
         margin: 0 auto; 
         padding: 0;
 
@@ -307,6 +307,13 @@
             margin-top: -30px;
             margin-bottom: 30px;
         }
+
+        h2 {
+            margin-left: -60px;
+        } .t-text {
+            margin-left: -60px;
+            margin-top: -30px;
+        }
     
         .centre {
             text-align: center;
@@ -318,6 +325,10 @@
             font-family: "tekst";
             color: black;
         }
+
+        .hej {
+            margin-left: -5px;
+        }
     
         .AAA {
             display: grid;
@@ -327,7 +338,7 @@
         .A {
             grid-column: 1/2;
             grid-row: 1/2;
-            margin-right: 5px;
+            margin-left: 5px;
             margin-bottom: -10px;
 
             font-size: 70px;
@@ -336,6 +347,7 @@
             grid-column: span 6;
             grid-row: 1/2;
             margin-top: 106px;
+            margin-left: 5px;
 
             font-size: 20px;
             font-weight: bold;
@@ -349,7 +361,7 @@
             margin: 0 auto;
     
             padding-top: 10px;
-            max-width: 1200px;
+            max-width: 1000px;
         }
     
         .pro-h4 {
@@ -381,7 +393,7 @@
             object-fit: cover;
     
             display: block;
-            margin: 0 auto;
+            margin-right: 0;
             padding-top: 30px;
         } .order {
             margin-right: 100px;
@@ -389,7 +401,7 @@
     
         .temaerne img {
             width: auto;
-            height: 380px;
+            height: 300px;
             object-fit: cover;
     
             margin: 0;
