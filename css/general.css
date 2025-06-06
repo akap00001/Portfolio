@@ -20,6 +20,10 @@
     src: url(../fonts/Lato-Light.ttf);
 }
 
+img {
+    border-radius: 5px;
+}
+
 /* MOBIL */
 
 @media (max-width: 499px) {
@@ -46,6 +50,18 @@
     .port-mobil {
         color: #594B3F;
     }
+    .akuas {
+        padding-top: 20px;
+    }
+
+    body {
+        position: relative;
+        background-image: url('../img/f5b14a278f2b4b9dcdcef0355cba7060\ 1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+      }
 
     /* fonts og størrelse */
     
@@ -112,8 +128,9 @@
         /* positioner */
     
         .port-mobil {
-            text-align: end;
+            text-align: start;
             padding-bottom: 20px;
+            margin-top: -20px;
         }
     
         .port-desk {
@@ -216,6 +233,7 @@
     
             margin-top: 4px;
             margin-bottom: 8px;
+            border-radius: 3px;
         }
     
         .farve2 {
@@ -225,6 +243,7 @@
     
             margin-top: 4px;
             margin-bottom: 8px;
+            border-radius: 3px;
         }
     
         .farve3 {
@@ -234,6 +253,7 @@
     
             margin-top: 4px;
             margin-bottom: 8px;
+            border-radius: 3px;
         }
 }
 
@@ -270,13 +290,21 @@
         color: #594B3F;
     }
 
+    body {
+        position: relative;
+        background-image: url('../img/f5b14a278f2b4b9dcdcef0355cba7060\ 1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+      }
 
     /* Skriftyper */
     
         .port-desk {
             font-family: "h2";
             font-weight: bold;
-            font-size: 96px;   
+            font-size: 96px;
         } .port-mobil { display: none;}
         
         h1 {
@@ -342,26 +370,30 @@
             text-align: end;
             margin-top: 20px;
 
-            margin-right: -60px;
+            margin-right: -20px;
             margin-bottom: -30px;
             padding-bottom: 20px;
         }
 
         .akuas {
             font-size: 96px;
-            margin-left: -60px;
+            margin-left: -15px;
 
             margin-top: -30px;
             margin-bottom: 30px;
             padding-top: 50px;
+            
         }
 
         h2 {
-            margin-left: -10px;
+            margin-left: 10px;
             padding-top: 50px;
         } .t-text {
-            margin-left: -10px;
+            margin-left: 20px;
             margin-top: -30px;
+
+            padding-bottom: 10px;
+            border-bottom: 2px dashed #ffff;
         }
     
         .centre {
@@ -373,6 +405,12 @@
             justify-content: end;
             font-family: "tekst";
             color: #A69B8D;
+        }
+
+        .omm {
+            margin-left: -10px;
+            padding-bottom: 5px;
+            border-bottom: 2px dashed #ffff;
         }
 
         .hej {
@@ -411,16 +449,23 @@
             margin: 0 auto;
     
             padding-top: 10px;
-            max-width: 1000px;
+            max-width: 800px;
         }
     
         .pro-h4 {
             margin-top: -30px;
-            padding-left: 2px;
+            padding-left: 20px;
         }
     
         h3 {
             padding-top: 30px;
+        }
+
+        .tal {
+            padding-bottom: 10px;
+            border-bottom: 2px dashed #ffff;
+
+            padding-top: 20px;
         }
     
         /*
@@ -474,7 +519,7 @@
     
             margin-top: 4px;
             margin-bottom: 8px;
-
+            border-radius: 3px;
         }
     
         .farve2 {
@@ -484,7 +529,7 @@
     
             margin-top: 4px;
             margin-bottom: 8px;
-
+            border-radius: 3px;
         }
     
         .farve3 {
@@ -494,7 +539,7 @@
     
             margin-top: 4px;
             margin-bottom: 8px;
-
+            border-radius: 3px;
         }
 
         .col1, .col2, .col3{
