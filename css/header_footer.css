@@ -3,12 +3,40 @@ footer, header {
     padding: 0;
 }
 
+header {
+    border-bottom: 3px double #B8CAD9;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 50px;
+}
+
+.head-ting {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+.logo {
+    width: auto;
+    height: 40px;
+    margin-left: -70px;
+}
+
+.contacts {
+    display: inline-flex;
+    margin-right: -70px;
+}
+
+
 footer {
-    border-top: 1px solid #d9d9d9;
+    border-top: 3px double #B8CAD9;
     margin-top: 50px;
     margin-left: -30px;
     margin-right: -30px;
-
+    
+    margin-bottom: -20px;
 }
 
 .foot-links {
@@ -23,9 +51,9 @@ footer {
     font-family: "tal";
     font-size: 15px;
     font-weight: 500;
-    color: black;
+    color: #B8CAD9;
     text-decoration: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #B8CAD9;
 }
 
 
@@ -39,36 +67,16 @@ footer {
     font-family: "h1";
     font-size: 14px;
     padding-right: 10px;
-    
+
+    color: #f2f2f2;
 }
 .navn {
     font-size: 14px;
     padding-left: 10px;
+
+    color: #f2f2f2;
 }
 
-header {
-    border-bottom: 1px solid #d9d9d9;
-    margin-left: -30px;
-    margin-right: -30px;
-    margin-bottom: 50px;
-}
-
-.head-ting {
-    display: flex;
-    justify-content: space-around;
-
-    margin-bottom: 5px;
-    margin-top: -10px;
-}
-.logo {
-    width: auto;
-    height: 40px;
-    margin-left: -70px;
-}
-.contacts {
-    display: inline-flex;
-    margin-right: -70px;
-}
 
 
 /* hover */
@@ -89,7 +97,7 @@ header {
     top: 30px;
     left: 50%;
     transform: translateX(-100%);
-    background-color: #1e1e1ecc;
+    background-color: #BFB7A8cc;
     /* mørk baggrund med gennemsigtighed */
     color: white;
     padding: 0.5rem 1rem;
@@ -110,7 +118,7 @@ header {
 @media (min-width: 500px) {
 
     header {
-        border-bottom: 1px solid #d9d9d9;
+        border-bottom: 3px double #B8CAD9;
         margin-bottom: 50px;
         margin-left: -25px;
         margin-right: -25px;
@@ -138,11 +146,12 @@ header {
     }
 
     footer {
-        border-top: 1px solid #d9d9d9;
-        margin-top: 100px;
+        border-top: 3px double #B8CAD9;
+        margin-top: 50px;
         margin-left: -25px;
         margin-right: -25px;
         
+        margin-bottom: -10px;
     }
 
     .foot-links {
@@ -161,9 +170,9 @@ header {
             font-family: "tal";
             font-size: 16px;
             font-weight: 500;
-            color: black;
+            color: #B8CAD9;
             text-decoration: none;
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid #B8CAD9;
         }
 
         .end {
@@ -179,11 +188,14 @@ header {
             font-size: 16px;
             padding-right: 10px;
     
+            color: #f2f2f2;
         }
     
         .navn {
             font-size: 16px;
-            padding-left: 10px;   
+            padding-left: 10px; 
+            
+            color: #f2f2f2;
         }
 
 }

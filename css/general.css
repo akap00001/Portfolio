@@ -24,6 +24,29 @@
 
 @media (max-width: 499px) {
 
+    /* STYLE */
+
+    main {
+            background-color: #F2EDE4;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+
+            border-radius: 10px;
+        }
+    h2 {
+        color: #594B3F;
+    }
+    h3, .tal, h5 {
+        color: #A69B8D;
+    }
+    h4 {
+        color: #BFB7A8;
+    }
+    .port-mobil {
+        color: #594B3F;
+    }
+
     /* fonts og størrelse */
     
         h1 {
@@ -31,7 +54,7 @@
         }
     
         .port-mobil {
-            font-family: "h1";
+            font-family: "h2";
             font-size: 48px;
         }
     
@@ -44,6 +67,8 @@
         h2 {
             font-family: "h2";
             font-size: 40px;
+        } .akuas {
+            font-size: 48px;
         }
     
         .hej {
@@ -80,7 +105,7 @@
             font-family: "tekst";
             text-decoration: none;
             font-size: 17px;
-            color: black;
+            color: #594B3F;
         }
     
     
@@ -103,7 +128,7 @@
             display: flex;
             justify-content: end;
             font-family: "tekst";
-            color: black;
+            color: #A69B8D;
         }
     
         .AAA {
@@ -128,8 +153,8 @@
             display: block;
             margin: 0 auto;
     
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 0px;
+            padding-right: 0px;
             max-width: 450px;
         }
     
@@ -203,8 +228,8 @@
         }
     
         .farve3 {
-            background-color: #1754A7;
-            color: #1754A7;
+            background-color: #6C92B9;
+            color: #6C92B9;
             max-width: 180px;
     
             margin-top: 4px;
@@ -217,13 +242,34 @@
 /* DESKTOP */
 
 @media (min-width: 500px) {
+
+    /* STYLE */
     
     main { 
         max-width: 1000px;
         margin: 0 auto; 
-        padding: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 50px;
 
+        background-color: #F2EDE4;
+        border-radius: 10px;
     }
+    h2 {
+        color: #594B3F;
+    }
+    
+    h3, .tal, h5 {
+        color: #A69B8D;
+    }
+    
+    h4 {
+        color: #BFB7A8;
+    }
+    .port-desk {
+        color: #594B3F;
+    }
+
 
     /* Skriftyper */
     
@@ -288,7 +334,7 @@
             font-family: "tekst";
             text-decoration: none;
             font-size: 20px;
-            color: black;   }
+            color: #594B3F;   }
     
     /* positioner */
     
@@ -298,20 +344,23 @@
 
             margin-right: -60px;
             margin-bottom: -30px;
+            padding-bottom: 20px;
         }
 
         .akuas {
             font-size: 96px;
-            margin-left: -20px;
+            margin-left: -60px;
 
             margin-top: -30px;
             margin-bottom: 30px;
+            padding-top: 50px;
         }
 
         h2 {
-            margin-left: -60px;
+            margin-left: -10px;
+            padding-top: 50px;
         } .t-text {
-            margin-left: -60px;
+            margin-left: -10px;
             margin-top: -30px;
         }
     
@@ -323,7 +372,7 @@
             display: flex;
             justify-content: end;
             font-family: "tekst";
-            color: black;
+            color: #A69B8D;
         }
 
         .hej {
@@ -340,6 +389,7 @@
             grid-row: 1/2;
             margin-left: 5px;
             margin-bottom: -10px;
+            padding-top: 0%;
 
             font-size: 70px;
         }
@@ -438,8 +488,8 @@
         }
     
         .farve3 {
-            background-color: #1754A7;
-            color: #1754A7;
+            background-color: #6C92B9;
+            color: #6C92B9;
             max-width: 226px;
     
             margin-top: 4px;
