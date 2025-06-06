@@ -40,6 +40,7 @@ img {
         }
     h2 {
         color: #594B3F;
+        padding-top: 20px;
     }
     h3, .tal, h5 {
         color: #A69B8D;
@@ -56,7 +57,7 @@ img {
 
     body {
         position: relative;
-        background-image: url('../img/f5b14a278f2b4b9dcdcef0355cba7060\ 1.png');
+        background-image: url('../img/3.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -157,13 +158,16 @@ img {
         .A {
             grid-column: 1/2;
             grid-row: 1/2;
-            margin-right: 0;
+            margin-top: -10px;
         }
     
         .kua {
             grid-column: span 6;
             grid-row: 1/2;
-            margin-top: 59px;
+            margin-top: 36.5px;
+            padding-left: 2px;
+
+            font-family: "h1";
         }
     
         .tema_grid_1-1_1 {
@@ -202,13 +206,13 @@ img {
         }
     
         .aku {
-            width: 280px;
-            height: 400px;
-            object-fit: cover;
+            width: auto;
+            height: 350px;
+            
     
             display: block;
             margin: 0 auto;
-            padding-top: 30px;
+            margin-top: 40px;
         }
     
         .temaerne img {
@@ -292,7 +296,7 @@ img {
 
     body {
         position: relative;
-        background-image: url('../img/f5b14a278f2b4b9dcdcef0355cba7060\ 1.png');
+        background-image: url('../img/3.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -484,12 +488,12 @@ img {
     
         .aku {
             width: auto;
-            height: 500px;
-            object-fit: cover;
+            height: 400px;
+            margin: 0 auto;
     
             display: block;
-            margin-right: 0;
-            padding-top: 30px;
+            margin-top: 80px;
+            padding-top: 0px;
         } .order {
             margin-right: 100px;
         }
