@@ -25,7 +25,7 @@ img {
     
 }
 .aku {
-    border: 10px solid white;
+    border: 15px solid white;
 }
 
 
@@ -141,6 +141,11 @@ img {
     
         .port-desk {
             display: none;
+        }
+
+        .t-text, .tal, .omm, .port-mobil {
+            padding-bottom: 15px;
+            border-bottom: 3px dashed #ffff;
         }
     
         .centre {
@@ -379,18 +384,16 @@ img {
             text-align: end;
             margin-top: 20px;
 
-            margin-right: -20px;
             margin-bottom: -30px;
             padding-bottom: 20px;
         }
 
         .akuas {
             font-size: 96px;
-            margin-left: -15px;
 
-            margin-top: -30px;
+            margin-top: 10px;
             margin-bottom: 30px;
-            padding-top: 50px;
+            padding-top: 30px;
             
         }
 
@@ -400,9 +403,6 @@ img {
         } .t-text {
             margin-left: 20px;
             margin-top: -30px;
-
-            padding-bottom: 10px;
-            border-bottom: 2px dashed #ffff;
         }
     
         .centre {
@@ -418,12 +418,11 @@ img {
 
         .omm {
             margin-left: -10px;
-            padding-bottom: 5px;
-            border-bottom: 2px dashed #ffff;
         }
 
         .hej {
             margin-left: -5px;
+            margin-top: 0;
         }
     
         .AAA {
@@ -450,7 +449,9 @@ img {
             font-weight: bold;
         }
         .omm-text {
-            max-width: 40ch;
+            max-width: 51ch;
+            font-size: 16px;
+            text-align:justify;
         }
     
         .tema_grid_1-1_1 {
@@ -471,10 +472,12 @@ img {
         }
 
         .tal {
-            padding-bottom: 10px;
-            border-bottom: 2px dashed #ffff;
-
             padding-top: 20px;
+        }
+
+        .t-text, .omm, .tal {
+            border-bottom: 2px dashed #ffff;
+            padding-bottom: 15px;
         }
     
         /*
@@ -497,10 +500,10 @@ img {
             margin: 0 auto;
     
             display: block;
-            margin-top: 80px;
+            margin-top: 150px;
             padding-top: 0px;
         } .order {
-            margin-right: 100px;
+            margin-right: 50px;
         }
     
         .temaerne img {

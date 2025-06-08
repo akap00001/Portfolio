@@ -137,9 +137,9 @@ footer {
 @media (min-width: 500px) {
 
     header {
-        
+
         padding: 5px;
-        padding-top: 10px;
+        padding-top: 20px;
 
         margin-bottom: 50px;
         margin-left: 0px;
@@ -150,7 +150,8 @@ footer {
     }
 
     .head-ting {
-        display: inline-flex;
+        display: flex;
+        justify-content: space-between;
     
         margin-bottom: 0px;
         margin-top: 0px;
@@ -160,13 +161,13 @@ footer {
         }
     
     .logo {
-        margin-left: 100px;
+        margin-left: 50px;
     }
     .contacts {
         display: flex;
         justify-content: space-evenly;
         column-gap: 15px;
-        margin-left: 1150px;
+        margin-right: 50px;
     }
         .mail-hover img {
             display: block;
@@ -175,7 +176,6 @@ footer {
         }
 
     footer {
-        
         
         margin-top: 50px;
         margin-left: 0px;
