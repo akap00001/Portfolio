@@ -179,6 +179,10 @@ img {
 
             font-family: "h1";
         }
+        .omm-text {
+            max-width: 50ch;
+            text-align: justify;
+        }
     
         .tema_grid_1-1_1 {
             display: block;
@@ -474,6 +478,7 @@ img {
 
         .tal {
             padding-top: 20px;
+            margin-bottom: -50px;
         }
 
         .t-text, .omm, .tal {

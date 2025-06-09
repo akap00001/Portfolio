@@ -1,0 +1,126 @@
+.projekt-kort {
+    padding: 2rem;
+    
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+
+.projekt-container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: #BFB7A8;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+}
+
+.projekt-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.projekt-info {
+    padding: 1.5rem;
+}
+
+.projekt-info h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.projekt-info p {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.projekt-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    background-color: #A69B8D;
+    color: #F2EDE4;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.projekt-link:hover {
+    background-color: #594B3F;
+}
+
+.færdig {
+    border: 3px dashed #ffff;
+    padding: 8px;
+}
+.færdig01, .færdig02 {
+    border: 3px dashed #ffff;
+    padding: 8px;
+}
+
+.f-l {
+    max-width: 60ch;
+    text-align: justify;
+}
+.fyi {
+    font-size: 12px;
+}
+
+
+
+@media (min-width: 500px) {
+    .projekt-container {
+        flex-direction: row;
+    }
+
+    .projekt-container img {
+        width: 50%;
+    }
+
+    .projekt-info {
+        width: 50%;
+    }
+
+    .færdig {
+        width: auto;
+        height: 400px;
+        
+        border: 3px dashed #ffff;
+        padding: 10px; 
+    }
+    .færdig01 {
+        width: auto;
+        height: 500px;
+
+        border: 3px dashed #ffff;
+        padding: 10px;
+    }
+    .færdig02 {
+        width: auto;
+        height: 300px;
+        
+        border: 3px dashed #ffff;
+        padding: 10px;
+    }
+    
+    .before {
+        display: flex;
+        justify-content: center;
+    }
+
+    .f-l {
+        max-width: 110ch;
+        text-align: justify;
+
+        margin-left: 50px;
+        margin-right: 50px;
+    } 
+    .fyi {
+        margin-left: 50px;
+        font-size: 14px;
+    }
+
+}

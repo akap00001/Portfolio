@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/layout.css" />
     <link rel="stylesheet" href="../css/header_footer.css" />
+    <link rel="stylesheet" href="../css/projekt.css" />
 
     <link rel="icon" type="image/png" href="../favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg" />
@@ -36,93 +37,40 @@
     </header>
     <main>
       <h1 class="tal">2.2</h1>
+
       <h2>Website</h2>
+      <h4 class="pro-h4">T02_Grundlæggende web</h4>
 
-      <section class="grid_1-1">
-        <div>
-          <h4 class="pro-h4">T02_Grundlæggende web</h4>
-          <p>
-            I forlængelse af mit tidligere afleveret mobilsite skulle jeg nu videreudviklet websitet, så det også fungerer på desktop. Projektet er kodet ud fra det udleverede wireframe og layoutdiagram, og hele sitet er uploadet til mit eget domæne.
-            Dette var udgangspunktet i min studiestartsprøve.
-          </p>
-        </div>
-
-        <div>
-          <img src="../img/website-forside.webp" alt="" />
+      <section class="projekt-kort">
+        <div class="projekt-container">
+          <img src="../img/website_thumbnail.webp" alt="Screenshot af projektet" />
+          <div class="projekt-info">
+            <h3>Website – akuaaa.dk</h3>
+            <p>
+              I dette projekt har jeg videreudviklet mit mobilsite til en fuldt responsiv desktop-version. Websitet er kodet ud fra udleveret wireframe og layoutdiagram og består af fem sider, der følger en ensartet struktur og visuel stil. <br />
+              <br />Projektet er en del af min studiestartsprøve og ligger live på mit eget domæne.
+            </p>
+            <a href="https://akuaaa.dk/website/mobilsite/site/index.html" target="_blank" class="projekt-link">Se mere</a>
+          </div>
         </div>
       </section>
 
-      <h3>FORBEREDELSE & IDE</h3>
-      <section class="grid_1-1">
-        <div>
-          <p></p>
-        </div>
+      <h3>FORMÅL & LÆRING</h3>
 
-        <!-- mobil-format-->
-        <div class="grid_2-1">
-          <img class="img-01" src="../img/website_ide_1.webp" alt="" />
-          <img class="img-02" src="../img/website_ide_2.webp" alt="" />
-          <img class="img-03" src="../img/website_ide_3.webp" alt="" />
-        </div>
-      </section>
-
-      <div>
-        <h3>DESIGN & UDVIKLING</h3>
-        <section class="grid_1-1">
-          <div>
-            <p>
-              Websitet består af fem sider, som alle er struktureret ens og tilpasset desktop-visning. Jeg har arbejdet med både generel styling og layout i to separate CSS-filer generel.css og layout.css og alle ID- og class-navne følger nøje det
-              udleverede layoutdiagram. Indholdet er en kombination af udleveret materiale og mit eget bidrag, bl.a. et personligt billede og tekst på "min_computer.html".
-            </p>
-          </div>
-          <div class="bild-flyt">
-            <img src="../img/website_de_1.png" />
-          </div>
-
-          <!-- flyt bild ned til EFTER 2. paragraf-->
-          <div class="text-flyt">
-            <p>
-              Koden følger den generelle html standard, som vi har lært og dette skulle jeg til fremvise. Derudover er udviklet efter "mobile first" tilgangen. Wireframet viser at jeg skulle til at arbejde med grid og flex, hvilket er en smule
-              besværligt for en nybegynder, men fungerede fint. Derudover er der brug af farver og to fonte, da dette var et krav for at sikre et visuelt sammenhængende udtryk, der fungerer på tværs af skærmstørrelser.
-            </p>
-          </div>
-        </section>
-
-        <section class="de_grid_1-1-1">
-          <img class="img-08" src="../img/website_de_2.webp" alt="" />
-
-          <!-- aktiveres i mobil-format-->
-
-          <img class="img-06" src="../img/website_de_3.webp" alt="" />
-          <img class="img-07" src="../img/website_de_4.webp" alt="" />
-        </section>
+      <div class="f-l">
+        <p>
+          Formålet var at vise, at jeg kan kode et responsivt website med udgangspunkt i mobile first. Jeg skulle demonstrere forståelse for layoutprincipper som grid og flex, og opbygge et site med korrekt struktur og styling efter specifikke krav
+          og konventioner.
+        </p>
+        <p>
+          Jeg har arbejdet med semantisk HTML, CSS grid og flex, media queries, mappestruktur og navngivning. Jeg lærte at bruge Figma, styletiles, developer tools og billedoptimering samt at uploade og validere via FileZilla. Derudover fik jeg
+          erfaring med rettighedslicenser og ophavsret i digitale medier.
+        </p>
       </div>
-
-      <div>
-        <h3>TEST & RESULTAT</h3>
-
-        <section class="grid_1-1">
-          <div>
-            <p>Jeg har sørget for, at HTML5-koden validerer uden fejl, og at websitet ikke kan indekseres af søgemaskiner. Derudover har jeg testet siden konstant, da det er vigtigt at de forskellige grids kommer til syne i begge skærmstørrelsr.</p>
-            <p>Her er et eksempel på en af siderne, hvor der gik lidt ekstra arbejde i hvad der skulle stå hvor.</p>
-          </div>
-
-          <div class="order">
-            <img src="../img/website_test.webp" alt="" />
-          </div>
-        </section>
+      <div class="before">
+        <img class="færdig" src="../img/website_før.webp" alt="" />
       </div>
-
-      <div>
-        <div class="centre">
-          <h3>FÆRDIGE PROJEKT</h3>
-          <p>Det færdige produkt fremviser min første prøve på uddannelse, og taget i betragning af at på nuværende tidspunkt, havde jeg både gået der, og lært om kodning i ca. 1,5 måned, vil jeg mene at siden ikke blev så dårlig.</p>
-        </div>
-
-        <a href="https://akuaaa.dk/website/mobilsite/site/index.html" class="løsning" target="_blank">Link</a>
-
-        <img src="../img/website_fær.png" alt="" />
-      </div>
+      <p class="fyi">Her ses wireframe af forsiden i mobil- og desktop</p>
     </main>
     <footer>
       <div class="foot-links">
