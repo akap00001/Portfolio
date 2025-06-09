@@ -116,7 +116,7 @@
     .tema_grid_1-1_1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 5rem;
+        column-gap: 2rem;
         row-gap: 3rem;
     }
 

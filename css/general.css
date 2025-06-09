@@ -146,17 +146,8 @@ img {
         .t-text, .tal, .omm, .port-mobil {
             padding-bottom: 15px;
             border-bottom: 3px dashed #ffff;
-        }
-    
-        .centre {
-            text-align: center;
-        }
-    
-        .løsning {
-            display: flex;
-            justify-content: end;
-            font-family: "tekst";
-            color: #A69B8D;
+        } .tal {
+            padding-top: 15px;
         }
     
         .AAA {
@@ -174,10 +165,11 @@ img {
         .kua {
             grid-column: span 6;
             grid-row: 1/2;
-            margin-top: 36.5px;
+            margin-top: 33px;
             padding-left: 2px;
 
             font-family: "h1";
+            font-size: 16px;
         }
         .omm-text {
             max-width: 50ch;
@@ -323,7 +315,7 @@ img {
         .port-desk {
             font-family: "h2";
             font-weight: bold;
-            font-size: 96px;
+            font-size: 84px;
         } .port-mobil { display: none;}
         
         h1 {
@@ -363,7 +355,7 @@ img {
     
         .pro-h4 {
             font-family: "andet";
-            font-size: 32px;
+            font-size: 24px;
         }
     
         h5 {
@@ -394,7 +386,7 @@ img {
         }
 
         .akuas {
-            font-size: 96px;
+            font-size: 84px;
 
             margin-top: 10px;
             margin-bottom: 30px;
@@ -409,62 +401,49 @@ img {
             margin-left: 20px;
             margin-top: -30px;
         }
-    
-        .centre {
-            text-align: center;
-        }
-    
-        .løsning {
-            display: flex;
-            justify-content: end;
-            font-family: "tekst";
-            color: #A69B8D;
-        }
 
         .omm {
-            margin-left: -10px;
+            margin-left: 20px;
         }
 
         .hej {
             margin-left: -5px;
-            margin-top: 0;
+            margin-top: -10px;
         }
     
         .AAA {
             display: grid;
             grid-template-columns: repeat(18, 1fr);
-            gap: 0rem;
         }
         .A {
             grid-column: 1/2;
             grid-row: 1/2;
             margin-left: 5px;
             margin-bottom: -10px;
-            padding-top: 0%;
+            margin-top: -5px;
 
             font-size: 70px;
         }
         .kua {
             grid-column: span 6;
             grid-row: 1/2;
-            margin-top: 106px;
+            margin-top: 89px;
             margin-left: 5px;
 
-            font-size: 20px;
+            font-size: 24px;
             font-weight: bold;
         }
         .omm-text {
             max-width: 51ch;
             font-size: 16px;
             text-align:justify;
+            margin-top: -10px;
         }
     
         .tema_grid_1-1_1 {
-            display: block;
-            margin: 0 auto;
+            margin-left: 80px;
     
             padding-top: 10px;
-            max-width: 800px;
         }
     
         .pro-h4 {
@@ -486,11 +465,6 @@ img {
             padding-bottom: 15px;
         }
     
-        /*
-        .img-02 {
-            width: 210px;
-            height: auto;
-        }
     
     
     /* basis + billeder */
@@ -506,15 +480,15 @@ img {
             margin: 0 auto;
     
             display: block;
-            margin-top: 150px;
+            margin-top: 140px;
             padding-top: 0px;
         } .order {
             margin-right: 50px;
         }
     
-        .temaerne img {
+        .tema_grid_1-1_1 img {
             width: auto;
-            height: 300px;
+            height: 250px;
             object-fit: cover;
     
             margin: 0;
@@ -524,7 +498,7 @@ img {
     
         .grid_1-1-1 img {
             width: auto;
-            height: 300px;
+            height: 270px;
             object-fit: cover;
 
             margin-left: 0px;
@@ -534,31 +508,28 @@ img {
         .farve1 {
             background-color: #051428;
             color: #051428;
-            max-width: 226px;
+            max-width: 204px;
     
             margin-top: 4px;
             margin-bottom: 8px;
-            border-radius: 3px;
         }
     
         .farve2 {
             background-color: #D8CEC4;
             color: #D8CEC4;
-            max-width: 226px;
+            max-width: 204px;
     
             margin-top: 4px;
             margin-bottom: 8px;
-            border-radius: 3px;
         }
     
         .farve3 {
             background-color: #6C92B9;
             color: #6C92B9;
-            max-width: 226px;
+            max-width: 204px;
     
             margin-top: 4px;
             margin-bottom: 8px;
-            border-radius: 3px;
         }
 
         .col1, .col2, .col3{
@@ -567,9 +538,5 @@ img {
             padding-left: 20px;
             padding-right: 20px;
         }
-    
-    /* PROJEKT SIDER */
-
-    
 
 }

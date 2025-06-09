@@ -97,6 +97,9 @@
 
         border: 3px dashed #ffff;
         padding: 10px;
+
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .færdig02 {
         width: auto;
